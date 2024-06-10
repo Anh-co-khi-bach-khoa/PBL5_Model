@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['ripe apple', 'ripe banana', 'ripe dragon fruit', 'unripe apple', 'unripe banana', 'unripe dragon fruit']
+
+roboflow:
+  workspace: fruit-7ufam
+  project: dataset-official
+  version: 6
+  license: Private
+  url: https://universe.roboflow.com/fruit-7ufam/dataset-official/dataset/6

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 30
+names: ['ripe apple', 'ripe banana', 'ripe bell fruit', 'ripe dragon fruit', 'ripe grape', 'ripe mango', 'ripe mangosteen', 'ripe orange', 'ripe papaya', 'ripe passion fruit', 'ripe pineapple', 'ripe pomegranate', 'ripe star fruit', 'ripe strawberry', 'ripe tomato', 'unripe apple', 'unripe banana', 'unripe bell fruit', 'unripe dragon fruit', 'unripe grape', 'unripe mango', 'unripe mangosteen', 'unripe orange', 'unripe papaya', 'unripe passion fruit', 'unripe pineapple', 'unripe pomegranate', 'unripe star fruit', 'unripe strawberry', 'unripe tomato']
+
+roboflow:
+  workspace: fruit-7ufam
+  project: dataset-official
+  version: 18
+  license: Private
+  url: https://universe.roboflow.com/fruit-7ufam/dataset-official/dataset/18
